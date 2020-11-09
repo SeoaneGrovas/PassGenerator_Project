@@ -46,4 +46,5 @@ def password(length,num=False,strenght="weak"):
 # This print is to test this code.
 print(password(15,num=True,strenght="very_strong"))
 
-# I know that it uses atypical characters (such as /, | ...) (I'll change that in a future version)
+# I knot that the program doesn't prompt the user the characteristics of the pass desired (lenght, if it must have numbers and strength).
+# I know that it uses atypical characters (such as /, | ...).
