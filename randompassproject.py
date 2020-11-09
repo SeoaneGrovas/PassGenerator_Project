@@ -1,4 +1,5 @@
 # Random pass generator v.1.0
+
 import random
 import string
 
@@ -44,3 +45,5 @@ def password(length,num=False,strenght="weak"):
 
 # This print is to test this code.
 print(password(15,num=True,strenght="very_strong"))
+
+# I know that it uses atypical characters (such as /, | ...) (I'll change that in a future version)
